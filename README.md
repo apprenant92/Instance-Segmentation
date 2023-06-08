@@ -73,5 +73,15 @@ Considered the pre-trained weights of maskrcnn_resnet50_fpn for mask generation.
 	<b>Evaluation:</b>  Losses for the train dataset, validation dataset, and test dataset are calculated to observe the model performance
 </p>
 <p align="center">
-<img src="utils/hyper_parameter.png" alt="Hyper Parameters" width="400" height="400" align="center" />
+<img src="utils/evaluation.png" alt="Evaluation" width="400" height="400" align="center" />
+</p>
+
+
+## Deployment
+Library: Gradio
+Gradio is a Python toolkit that makes it easier to build and use web-based user interfaces for machine learning models. It accepts a variety of input formats, including text, photos, audio, and video, and has an easy user interface. Gradio manages the interface's interaction with models, making it simple for users to interact with the model. With just one line of code, it streamlines deployment and offers UI components for customization. By bridging the gap between ML models and end users, Gradio increases the accessibility of model exploration and deployment.
+As our model in instance segmentation both the input from the gradio and output to the gradio will be an image.
+Before sending this gradio image to the model we are using some transformations as part of Data Pre-processing.
+<p align="center">
+<img src="utils/transformation_fn.png" alt="Transformation" width="400" height="400" align="center" />
 </p>
