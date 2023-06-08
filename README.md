@@ -50,14 +50,15 @@ Considered the pre-trained weights of maskrcnn_resnet50_fpn for mask generation.
 
 ## Experiments and Results:
 <p>
-	<b>**Fine Tuning:**</b> This model is fine-tuned by limiting the number of class labels to 10. Also, class labels and bounding boxes for pre-trained models are loaded from the annotated JSON files.
+	<b>Fine Tuning:</b> This model is fine-tuned by limiting the number of class labels to 10. Also, class labels and bounding boxes for pre-trained models are loaded from the annotated JSON files.
 </p>
 <p align="center">
 <img src="utils/fine_tune.png" alt="Fine Tuning Model" width="400" height="400" align="center" />
 </p>
 
-	**Hyper-parameter selection:**  Loss at each epoch is calculated to find the model state where loss is minimum. At this point state of the model, hyper-parameters, and parameters are saved for further use of the model. 
-	
+<p>
+	<b>Hyper-parameter selection:</b>  Loss at each epoch is calculated to find the model state where loss is minimum. At this point state of the model, hyper-parameters, and parameters are saved for further use of the model. 
+</p>
 <p align="center">
 <img src="utils/hyper_parameter.png" alt="Hyper Parameters" width="400" height="400" align="center" />
 </p>
