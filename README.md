@@ -48,3 +48,8 @@ Before sending this gradio image to the model we are using some transformations 
 <p align="center">
 <img src="utils/output.png" alt="Transformation" width="400" height="400" align="center" />
 </p>
+
+
+# IMPLEMENTATION
+
+For complete implementation please read the attached report.[report.pdf]
