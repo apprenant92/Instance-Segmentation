@@ -49,8 +49,9 @@ Considered the pre-trained weights of maskrcnn_resnet50_fpn for mask generation.
 </p>
 
 ## Experiments and Results:
-	**Fine Tuning:** This model is fine-tuned by limiting the number of class labels to 10. Also, class labels and bounding boxes for pre-trained models are loaded from the annotated JSON files.
-	
+<p>
+	<b>**Fine Tuning:**</b> This model is fine-tuned by limiting the number of class labels to 10. Also, class labels and bounding boxes for pre-trained models are loaded from the annotated JSON files.
+</p>
 <p align="center">
 <img src="utils/fine_tune.png" alt="Fine Tuning Model" width="400" height="400" align="center" />
 </p>
