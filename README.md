@@ -18,7 +18,8 @@ As we desire the output images in the rectangular format, image resizing is perf
 ### Data Pre-processing
 
 For our project, we utilized a pre-trained model that employed Normalize and Resize Transformations. To achieve this, we incorporated the albumentation library, known for its speed and versatility in image augmentation. This powerful library facilitated various transformations, including image compression, flipping, and random image quality enhancements. It also enabled us to efficiently perform resizing and normalizing operations on our images, which had a size of 1024 x 1024 pixels. By implementing data augmentation techniques, we aimed to mitigate the risk of overfitting and minimize computational complexities during our analysis.
- ![image](https://github.com/apprenant92/Instance-Segmentation/assets/25609291/6d9ec6f9-0a44-4413-9c00-5b4f34b41dc8)
+
+<img src="utils/model_architecture.png" alt="Model Architecture" width="100" height="100" />
 
 Pre-trained Model Transformation
 
