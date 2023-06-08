@@ -62,3 +62,16 @@ Considered the pre-trained weights of maskrcnn_resnet50_fpn for mask generation.
 <p align="center">
 <img src="utils/hyper_parameter.png" alt="Hyper Parameters" width="400" height="400" align="center" />
 </p>
+<p>
+	<b>Model Selection::</b>  Model selection is also done based on loss at each epoch. As shown in the hyper-parameter tuning above, at the same stage the best model is also saved.
+</p>
+<p align="center">
+	<b> ‘state_dict: model.state.dict()’ </b>
+</p>
+
+<p>
+	<b>Evaluation:</b>  Losses for the train dataset, validation dataset, and test dataset are calculated to observe the model performance
+</p>
+<p align="center">
+<img src="utils/hyper_parameter.png" alt="Hyper Parameters" width="400" height="400" align="center" />
+</p>
