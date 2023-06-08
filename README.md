@@ -41,3 +41,22 @@ The below code reads the masks and bounding box values from the loaded json anno
 <img src="utils/objective_fn.png" alt="Objective Function" width="400" height="400" align="center" />
 </p>
 
+### Parameters:
+Considered the pre-trained weights of maskrcnn_resnet50_fpn for mask generation. And for bounding box detection FastRCNNPredictor model with num_classes =10. Below is the code for the same.
+
+<p align="center">
+<img src="utils/parameters.png" alt="Parameters" width="400" height="400" align="center" />
+</p>
+
+## Experiments and Results:
+	**Fine Tuning:** This model is fine-tuned by limiting the number of class labels to 10. Also, class labels and bounding boxes for pre-trained models are loaded from the annotated JSON files.
+	
+<p align="center">
+<img src="utils/fine_tune.png" alt="Fine Tuning Model" width="400" height="400" align="center" />
+</p>
+
+	**Hyper-parameter selection:**  Loss at each epoch is calculated to find the model state where loss is minimum. At this point state of the model, hyper-parameters, and parameters are saved for further use of the model. 
+	
+<p align="center">
+<img src="utils/hyper_parameter.png" alt="Hyper Parameters" width="400" height="400" align="center" />
+</p>
